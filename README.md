@@ -1,0 +1,11 @@
+- de creat dvijoc comod de a marca rutierele pentru a le stoca in baza			24h	
+- de creat baza si de adunat informatia cumva semiautomat(rutele, statiile)		16h
+- introducerea strazilor(doar strazi importante)								24h
+- afisarea pe harta a strazilor, rutelor										24h
+- gasirea drumului optimal (doar ui)											16h
+- dvijoc de gasire a drumului optimal											40h
+- design																		16h
+- domen																			16h
+- hosting (configurare)															8h
+- servak																		4h
+- cum de facut capusta (banere, sau dezvoltare careva ulterioara)				16h
