@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ImageController {
 	
-	@RequestMapping(value="image/{s}/{x}/{y}/{z}", method = RequestMethod.GET)
+	@RequestMapping(value="/image/{s}/{x}/{y}/{z}", method = RequestMethod.GET)
 	@ResponseBody 
 	public byte[] getImage(
 			@PathVariable String s,
@@ -45,7 +45,6 @@ public class ImageController {
 	}
 	
 	private InputStream loadImage(String url) throws IOException {
-//		System.out.println("load image");
 	    HttpGet get = new HttpGet(url);
 	    get.setHeader(new BasicHeader("User-Agent", "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0"));
 	    
